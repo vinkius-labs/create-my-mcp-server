@@ -1,0 +1,80 @@
+{
+  "name": "create-my-mcp-server",
+  "version": "1.0.0",
+  "description": "Create production-ready MCP servers in seconds. Powered by vurb.ts — The Express.js for MCP Servers.",
+  "type": "module",
+  "bin": {
+    "create-my-mcp-server": "./dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "create-mcp-server",
+    "mcp-server",
+    "mcp-scaffold",
+    "mcp-starter",
+    "mcp-template",
+    "mcp-boilerplate",
+    "mcp-framework",
+    "ai",
+    "llm",
+    "claude",
+    "cursor",
+    "copilot",
+    "windsurf",
+    "cline",
+    "typescript",
+    "scaffold",
+    "starter",
+    "boilerplate",
+    "cli",
+    "create",
+    "framework",
+    "vurb",
+    "agentic",
+    "mva",
+    "model-view-agent",
+    "presenters",
+    "pii-redaction",
+    "anti-hallucination"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.9.1",
+    "execa": "^9.5.2",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^3.0.5",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Renato Marinho",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinkius-labs/create-my-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinkius-labs/create-my-mcp-server/issues"
+  },
+  "homepage": "https://vurb.vinkius.com"
+}
