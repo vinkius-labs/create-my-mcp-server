@@ -4,7 +4,7 @@
   "description": "Create production-ready MCP servers in seconds. Powered by vurb.ts — The Express.js for MCP Servers.",
   "type": "module",
   "bin": {
-    "create-my-mcp-server": "./dist/index.js"
+    "create-my-mcp-server": "dist/index.js"
   },
   "keywords": [
     "mcp",
